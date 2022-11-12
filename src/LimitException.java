@@ -1,5 +1,5 @@
 public class LimitException extends Exception {
-    double remainingAmount;
+    private double remainingAmount;
 
     public double getRemainingAmount() {
         return remainingAmount;
